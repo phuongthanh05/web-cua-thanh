@@ -4,21 +4,18 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
 .thoitrang{
-    background-image: url(anhthoitrang/logo/shop.jpg);
-    background-position: 100px;
-    font-size: 30px;
+    background-image: url(hinhnen.jpg);
+    background-position: 900px;
 }
 #logo img{
-    width: 5%;
+    width: 3%;
     height: auto;
     margin-top: 10px;
     margin-left: 10px;
-}
-header{
-    background-color: rgb(181, 180, 182);
-    color: white;
-    padding: 20px;
 }
 nav ul{
     list-style: none;
@@ -31,23 +28,46 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: #fff;
+    color: #030303;
     font-size: 25px;
 }
+.thoitrang .sub-menu{
+    position: absolute;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: none;
+    top: auto;
+    left: auto;
+}
+.thoitrang li:hover .sub-menu{
+    display: flex;
+}
 nav li:hover{
-    background-color: brown;
+    background-color: rgb(231, 243, 101);
     padding: 5px;
     border-radius: 10px;
 }
+main{
+    padding: 50px;
+}
+marquee{
+    margin-top:20 px;
+    background-color: rgb(247, 247, 247);
+}
+.slide img{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    height:auto;
+}
+
 h1{
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
     margin-top: 5px;
-}
-main{
-    padding: 50px;
 }
 .section{
     margin-bottom: 50px;
@@ -58,7 +78,7 @@ main{
 .section h2{
     text-transform: uppercase;
     text-align: center;
-    color: chocolate;
+    color: rgb(178, 183, 109);
     margin-bottom: 20px;
 }
 .products{
@@ -73,7 +93,7 @@ main{
 }
 .product img{
     width: 100%;
-    border: 2px solid purple;
+    border: 2px solid rgb(17, 17, 17);
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -107,7 +127,7 @@ section form input{
     margin-top: 20px;
 }
 #email{
-    margin-left: 74px;
+    margin-left: 77px;
 }
 #message{
     margin-left: 52px;
